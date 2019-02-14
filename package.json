@@ -1,0 +1,19 @@
+{
+  "name": "webcomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "clear": "rm -rf build/output/*",
+    "build": "npm run clear & parcel build src/index.html -d build/output"
+  },
+  "author": "Ivan Piedra <ipiedra@cecropiasolutions.com> (https://plus.google.com/100045045450129923111)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "parcel": "^1.11.0"
+  }
+}
